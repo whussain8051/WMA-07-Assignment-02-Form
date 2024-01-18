@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        .blank {
+            width: 99%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div style="text-align: end;padding-right: 50px;">
+            <a href="index.html" style="color: brown;">
+                <strong>Student Registration Form</strong>
+            </a>
+        </div>
+        <br><br>
+        <table>
+        <tr>
+            <th><label for="Fname">First Name:</label></th>
+            <td><input type="text" placeholder="Enter your first name" id="Fname" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="Lname">Last Name:</label></th>
+            <td><input type="text" placeholder="Enter your last name" name="" id="Lname" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="Email">Email:</label></th>
+            <td><input type="email" placeholder="It should contain @,." name="" id="Email" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="No">Mobile:</label></th>
+            <td><input type="number" placeholder="only 10 digits are allowed" name="" id="No" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="gender">Gender:</label></th>
+            <td><input type="radio" id="male" name="option">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="option">
+            <label for="female">Female</label></td>
+        </tr>
+        <tr>
+            <th><label for="DOB">Date Of Birth:</label></th>
+            <td><input type="date" name="" id="DOB" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="address">Address:</label></th>
+            <td><textarea name="" id="address" cols="80" rows="7"></textarea></td>
+        </tr>
+        <tr>
+            <th><label for="city">City:</label></th>
+            <td><input type="text" name="" id="city" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="AP">Area PIN:</label></th>
+            <td><input type="number" name="" id="AP" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="state">State:</label></th>
+            <td><input type="text" name="" id="state" class="blank"></td>
+        </tr>
+        <tr>
+            <th><label for="edu">Qualification:</label></th>
+            <td>
+                <select name="" id="edu">
+                    <option value="">Select Qualification</option>
+                    <option value="">Metric</option>
+                    <option value="">Intermediate</option>
+                    <option value="">Graduation</option>
+                    <option value="">Master</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="special">Specialization:</label></th>
+            <td>
+                <input type="checkbox" name="" id="CS">
+                <label for="CS">Computer Science</label>
+            </td>
+        </tr>    
+        <tr>
+            <td></td>    
+            <td>
+                <input type="checkbox" name="" id="IT">
+                <label for="IT">Information Technology</label>
+            </td>
+        </tr>    
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="" id="CA">
+                <label for="CA">Computer Architecture</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="" id="TC">
+                <label for="TC">Tele Communication</label>
+            </td>
+        </tr>  
+        <tr>
+            <th><label for="pass">Password:</label></th>
+            <td><input type="password" name="" id="pass" class="blank"></td>
+        </tr>
+        </table>
+        <br>
+        <button style="padding: 10px; background-color: green; color: white; border-radius: 5px;">Registered</button>
+    </main>
+</body>
+</html>
